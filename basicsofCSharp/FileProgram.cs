@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
+
+/// <summary>
+/// Program to display student details on the console using file and string methods
+/// </summary>
+
 namespace basicsofCSharp
 {
     class FileAssign
@@ -26,12 +31,12 @@ namespace basicsofCSharp
                 Console.WriteLine("File doesn't exist");
             }
             StreamWriter wrt = File.CreateText(filename);
-            wrt.WriteLine("abcd, 21, ECE");
-            wrt.WriteLine("efgh, 20, IT");
-            wrt.WriteLine("ijkl, 20, CSE");
-            wrt.WriteLine("lmno, 19, IT");
-            wrt.WriteLine("pqrs, 21, IT");
-            wrt.WriteLine("tuvw, 19, CSE");
+            wrt.WriteLine("Xiao, 21, ECE");
+            wrt.WriteLine("Rumi, 20, IT");
+            wrt.WriteLine("June, 20, CSE");
+            wrt.WriteLine("John, 19, IT");
+            wrt.WriteLine("Mark, 21, IT");
+            wrt.WriteLine("Josh, 19, CSE");
             wrt.Close();
             Console.WriteLine("student data entered into the file");
         }
