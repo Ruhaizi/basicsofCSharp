@@ -14,10 +14,10 @@ namespace basicsofCSharp
     {
         public static void Do()
         {
-            WriteLine();
+            //WriteLine();
             ReadLine();
         }
-        private static void WriteLine()
+        /*private static void WriteLine()
         {
             //Console.WriteLine("student details entered into the file");
             string dir = Directory.GetCurrentDirectory();
@@ -39,7 +39,7 @@ namespace basicsofCSharp
             wrt.WriteLine("Josh, 19, CSE");
             wrt.Close();
             Console.WriteLine("student data entered into the file");
-        }
+        }*/
     private static void ReadLine()
         {
             string dir = Directory.GetCurrentDirectory();
