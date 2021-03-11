@@ -1,0 +1,6 @@
+Xiao, 21, ECE
+Rumi, 20, IT
+June, 20, CSE
+John, 19, IT
+Mark, 21, IT
+Josh, 19, CSE
